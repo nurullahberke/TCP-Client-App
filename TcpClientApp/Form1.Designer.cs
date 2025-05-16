@@ -96,6 +96,7 @@
             buttonConnect.TabIndex = 6;
             buttonConnect.Text = "Connect";
             buttonConnect.UseVisualStyleBackColor = true;
+            buttonConnect.Click += buttonConnect_Click;
             // 
             // buttonDisconnect
             // 
@@ -106,6 +107,7 @@
             buttonDisconnect.TabIndex = 7;
             buttonDisconnect.Text = "Disconnect";
             buttonDisconnect.UseVisualStyleBackColor = true;
+            buttonDisconnect.Click += buttonDisconnect_Click;
             // 
             // Form1
             // 
