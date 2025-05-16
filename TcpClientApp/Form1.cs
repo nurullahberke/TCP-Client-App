@@ -12,7 +12,7 @@ namespace TcpClientApp
         // Ağ akışı
         private NetworkStream? networkStream;
         // Veritabanı bağlantı dizesi
-        private string connectionString = "Data Source=localhost;Initial Catalog=TCPLogs;Integrated Security=True";
+        private string connectionString = "Data Source=SOLAIRE\\SQLEXPRESS01;Initial Catalog=TCPLogs;Integrated Security=True;TrustServerCertificate=True";
         // Veritabanı bağlantı nesnesi
         private SqlConnection? sqlConnection;
         // İstemci çalışıyor mu?
